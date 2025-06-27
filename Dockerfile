@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 5000
 
 # Запускаем приложение (можно использовать Gunicorn для продакшена)
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
